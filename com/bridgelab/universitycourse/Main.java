@@ -13,14 +13,14 @@ public class Main {
         ResearchCourse researchCourse = new ResearchCourse("AI Research", "Artificial Intelligence");
 
         // use generci to store course
-        Course<ExamCourse> examCourses = new Course<>();
+        Courses<ExamCourse> examCourses = new Courses<>();
         examCourses.addCourse(examCourse1);
         examCourses.addCourse(examCourse2);
 
-        Course<AssignmentCourse> assignmentCourses = new Course<>();
+        Courses<AssignmentCourse> assignmentCourses = new Courses<>();
         assignmentCourses.addCourse(assignmentCourse);
 
-        Course<ResearchCourse> researchCourses = new Course<>();
+        Courses<ResearchCourse> researchCourses = new Courses<>();
         researchCourses.addCourse(researchCourse);
 
         // display courses of examcourse

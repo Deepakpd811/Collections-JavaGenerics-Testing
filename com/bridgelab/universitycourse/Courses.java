@@ -5,7 +5,7 @@ package com.bridgelab.universitycourse;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Course<T extends CourseType> {
+public class Courses<T extends CourseType> {
 
     private List<T> listofCouses = new ArrayList<>();
 

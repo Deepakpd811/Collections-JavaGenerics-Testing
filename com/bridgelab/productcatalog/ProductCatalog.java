@@ -8,7 +8,7 @@ import java.util.List;
 public class ProductCatalog {
 
     // list of Product of any type 
-    private List<Product<?>>  listofproducts = new ArrayList<>();
+    private List<Product<? extends Category>>  listofproducts = new ArrayList<>();
 
     public void addProduct(Product<?> product){
         listofproducts.add(product);
