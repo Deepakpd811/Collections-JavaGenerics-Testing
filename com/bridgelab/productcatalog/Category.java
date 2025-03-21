@@ -1,5 +1,7 @@
 package com.bridgelab.productcatalog;
 
+
+//// category abstract class
 abstract class Category {
     String name;
 
