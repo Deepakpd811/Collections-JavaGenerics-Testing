@@ -18,19 +18,19 @@ public class ValidateAge {
     }
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
         try {
-            Scanner sc = new Scanner(System.in);
-
+            System.out.println("Enter the age");
             int age = sc.nextInt();
             validateAge(age);
 
             System.out.println("Access Granted");
 
-            // sc.close();
         } catch (InvalidAgeException e) {
             System.out.println(e.getMessage());
         }
+        sc.close();
 
     }
 }
